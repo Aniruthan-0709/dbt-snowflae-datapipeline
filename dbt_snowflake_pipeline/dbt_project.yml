@@ -34,6 +34,12 @@ models:
   staging:
     +materialized: view
     snowflake_warehouse: dbt_wh
+  facts:
+    +materialized: table
+    snowflake_warehouse: dbt_wh
+  dimensions:
+    +materialized: table
+    snowflake_warehouse: dbt_wh
   marts:
     +materialized: table
     snowflake_warehouse: dbt_wh
