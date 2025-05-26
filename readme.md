@@ -192,5 +192,3 @@ dbt docs serve # view documentation
 * Profile is configured via interactive `dbt init`
 * `dbt_utils` provides reusable macros
 * Staging models pull directly from Snowflake Sample Data (`tpch_sf1`)
-
-Let me know if you'd like a production-ready CI/CD pipeline for this or a `.env`-driven secret manager setup!
